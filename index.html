@@ -3,30 +3,162 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>myEWU | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
-     <link rel="stylesheet" href="css/styles.css" />
-
+    <link rel="stylesheet" href="css/styles.css" />
 
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+
+    <!--NAVIGATION******************-->
+    <nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="index.html">myEWU Portal</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+
+
+    <ul class="right">
+      <li class=""><a href="#">Your Sites</a></li>
+      <li class=""><a href="contact.html">Contact</a></li>
+       <li class=""><a href="#">About</a></li>
+       <li class=""><a href="#">Help</a></li>
+  
     
-   <div class="row">
-    <div class="columns grid-6">
+      <li class="has-dropdown active">
+        <a href="#"><strong>Account Options</strong></a>
+        <ul class="dropdown">
+          <li><a href="#">Your Profile</a></li>
+          <li><a href="#">Account Settings</a></li>
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#"><strong>LOG OUT</strong></a></li>
+        </ul>
+      </li>
+    </ul>
 
-      <div class="box"></div>
-      <div class="box"></div>
 
+    <!--END NAVIGATION****************-->
+  </section>
+</nav>
+
+<div data-alert class="alert-box success radius 96percent">
+   <h4>Hey N00b | Welcome to myEWU!</h4>
+      <div class="row">
+      <div class="large-12 columns">
+        <div class="panel">
+         
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+          <p><a href="#">What is MyEwu?</a><br /> myEWU is a web portal that connects you to all your school services through one site. Have your grades, course list, private messages all in one place! 
+        </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="#">How can I get connected?</a>
+                <br />
+                myEWU allows you to manage your resources by customizing widgets below so the information you need is exactly where you want it. Start by click any one of the boxes below.
+              </p>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p><a href="#">JUST TO CLARIFY</a><br />This alert would disappear after the very first login after creating an account. Otherwise it would be annoying.</p>
+            </div>        
+          </div>
+        </div>
+      </div>
     </div>
+  <a href="#" class="close">&times;</a>
+</div>
+    
 
-   </div>
+ 
+
+    <div class="row">
+
+ <dl class="sub-nav"> 
+  <dt>CUSTOMIZE:</dt> 
+      <dd><a href="#">Appearance</a></dd> 
+      <dd><a href="#">Templates</a></dd> 
+      <dd><a href="#">Edit</a></dd> 
+  </dl>
+
+
+      <div class="large-8 medium-8 columns">
+        <!-- Grid Example -->
+ <div class="row">
+          <div class="large-12 columns">
+            <div class="callout panel">
+
+    <a href="#" data-dropdown="drop" class="button dropdown"></a><br> <ul id="drop" data-dropdown-content class="f-dropdown"> 
+
+                <li><a href="#">EasternerOnline [selected]</a></li> 
+                <li><a href="#">Eaglenet.ewu</a></li> 
+                <li><a href="#">Office 365</a></li> 
+                <li><a href="#">Canvas</a></li>
+                <li><a href="#">EWU Facebook</a></li>
+                <li><a href="#">(+) Add Site</a></li> 
+              </ul>
+
+
+               <p><strong>WIDGET #1</strong><br>
+                Here is the space for the main widget selected. It could be EWU's facebook news feed, updates from canvas, cheney weather, etc. This would take up most space on the user's personal page.
+                <br>
+                As for the customise submenu above, the user would have the options to change the background, the hierachy template of the myEWU site, and which sites they decided to manage.
+                <br>
+                The drop-down menu allows the user to choose which empty space displays the sites they want. The user can go up to "Your sites" on the main nav and choose which ones they'd like access too, but they don't to have all of them on display. (at the moment, I can only get it to work with one widget)
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+
+              <p>Widget two </p>
+            </div>
+          </div>
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+              <p>Widget three</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="row">
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+              <p>Widget Four</p>
+            </div>
+          </div>
+          <div class="large-6 medium-6 columns">
+            <div class="callout panel">
+              <p>(+) ADD WIDGET SPACE</p>
+            </div>
+          </div>
+        </div>
+    
+        
+        
+      </div>     
+
+      <div class="large-4 medium-4 columns">
+        <div class="callout panel">
+        <h5><strong>This would be a side widget</strong></h5> <br>
+          It would most likely be a steady stream of any site that has a feed such as EWU's twitter or facebook
+        <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="js/transit.js"></script>
-    <script src="js/scripts.js"></script>
-
-
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
