@@ -1,6 +1,64 @@
-.box{
-	background: pink;
-	margin: 20px;
-	height: 100px;
-	width: 100px;
+.topbar{
+	background-color: #8a0000;
 }
+
+.alert-box.success{
+	width: 96%;
+	max-width: 960px;
+	margin: 20px auto;
+
+	background-color: silver;
+}
+
+.sub-nav{
+	margin: 10px auto;
+}
+
+.top-bar{
+	padding-top: 55px;
+	line-height: 45px;
+	height: 100px;
+}
+
+.top-bar .name h1 a{
+	font-size: 2em;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background: silver;
+}
+
+a:hover, a:focus{
+	color: #a40000;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section ul li.active > a{
+	background: #333;
+}
+
+a{
+	color: #8a0000;
+}
+
+/*DROP DOWN MENU*/
+
+.dropdown.button, button.dropdown{
+	padding-right: 0px;
+}
+
+.dropdown.button:before, button.dropdown:before{
+	right: 25%;
+}
+
+a.button.dropdown{
+	float: right;
+}
+
+
+
+/**CALLOUT PANEL**/
+.panel.callout {
+    margin-bottom: 1.25rem;
+    padding: 1.3rem;
+    background: lightgray;
+    }
